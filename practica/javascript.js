@@ -1,55 +1,32 @@
 "use strict";
-/* saludo1= 'hola'
-var saludo2= 'hola2'
-let saludo3= 'hola3'
-const saludo4= 'hola4'
-console.log(saludo1)
-console.log(saludo2)
-console.log(saludo3)
-console.log(saludo4) *//* 
-const numero1 = Number(prompt('ingrese el primer numero'));
-const numero2 = Number(prompt('ingrese el segundo numero'));
-console.log (numero1 + numero2);
-document.write (numero1 + numero2) */
-/* const numero = parseInt (prompt("Ingrese un numero)"))
-for (let i = 1; i <= numero; i++){
-console.log("ciclo: ", i)
-document.write (i)
-} *//* 
-let centinela = true
-while (centinela === true) {
-    console.log('ejecutando contenido del bloque');
-    centinela = false;
-} */
-/* let texto= prompt ('ingrese un texto')
-while (texto==="") {
-    texto = prompt ('ingrese un texto');
-}
-document.write ('ingresando el texto: ' + texto) */
-/* et miarreglo = ["hola",true,8,null];
+ /*  const d = document;
+  const $root = d.getElementById ('root');
+  const $h1 = d.createElement ('h1');
+  const $p = d.createElement ('p');
+  const $btn1 = d.createElement ('button');
+  const $btn2 = d.createElement ('button');
 
-console.log(miarreglo);
-console.log(miarreglo[2]); */
+  let contadorDeClicks = 0
 
-/* const numero = parseInt(prompt('Ingrese un numero'));
-console.log(numero)
-for (let i = 1; i <= numero; i++) {
-    if (i % 2 === 0)
-    document.write(i + " ");
-} */
+  $h1.textContent ='Manipulacion del DOM';
+  $p.textContent = contadorDeClicks;
+  $btn1.textContent = '+';
+  $btn2.textContent = '-';
 
-// Hacer un programa que solicite al usuario un numero de 0 a 6 y manejar errores y mostrar el dia de la semana correspondiente segun arreglo "dias"
+  $root.appendChild ($h1);
+  $root.appendChild ($p);
+  $root.appendChild ($btn1);
+  $root.appendChild ($btn2);
 
-const arreglo = [
-    'domingo',
-    'lunes',
-    'martes',
-    'miércoles',
-    'jueves',
-    'viernes',
-    'sábado',
-  ];
+  $btn1.addEventListener ('click', () => {
+    contadorDeClicks++;
+    $p.textContent = contadorDeClicks
+  });
 
+  $btn2.addEventListener ('click', () => {
+    contadorDeClicks--;
+    $p.textContent = contadorDeClicks
+  });
+ */
 
-  // hacer un programa que solicite al usuario un dia de la semana y le retorne su nombre en ingles
 
